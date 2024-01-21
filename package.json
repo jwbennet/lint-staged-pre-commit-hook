@@ -1,0 +1,28 @@
+{
+  "name": "lint-staged-pre-commit-hook",
+  "version": "1.0.0",
+  "description": "Pre-commit hook which runs lint-staged to execute various linters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwbennet/lint-staged-pre-commit-hook.git"
+  },
+  "keywords": [
+    "pre-commit"
+  ],
+  "author": "James Bennet (jwbennet@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jwbennet/lint-staged-pre-commit-hook/issues"
+  },
+  "homepage": "https://github.com/jwbennet/lint-staged-pre-commit-hook#readme",
+  "dependencies": {
+    "lint-staged": "15.2.0"
+  },
+  "bin": {
+    "lint-staged": "./node_modules/lint-staged/bin/lint-staged.js"
+  }
+}

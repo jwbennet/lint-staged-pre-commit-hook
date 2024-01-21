@@ -1,0 +1,7 @@
+- id: lint-staged
+  name: lint-staged
+  description: Hook which runs lint-staged to execute various linters
+  language: node
+  entry: lint-staged
+  pass_filenames: false
+  always_run: true
